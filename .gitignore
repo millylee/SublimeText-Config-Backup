@@ -1,2 +1,24 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# node
+logs
 *.log
-.htaccess
+pids
+*.pid
+*.seed
+.grunt
+build/Release
+node_modules
+
+# My configurations:
