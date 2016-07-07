@@ -1,21 +1,18 @@
-# 详细配置请访问 editorconfig.org
-# 以下为 Sublime Text 所支持的属性
-
-root = false
+root = true
 
 [*]
-# latin1, utf-8, utf-8-bom, utf-16be or utf-16le
-charset = utf-8
-# tab or space
 indent_style = space
-# space 大小
 indent_size = 4
-# lf, cr, or crlf
-end_of_line = crlf
-# true or false
+
+charset = utf-8
 trim_trailing_whitespace = true
-# true or false
-insert_final_newline = false
+
+end_of_line = lf
+insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2

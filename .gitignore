@@ -3,6 +3,12 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+# mac os x
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
 # Python:
 *.py[cod]
 *.so
@@ -21,4 +27,13 @@ pids
 build/Release
 node_modules
 
-# My configurations:
+# hexo
+public/
+.deploy*/
+db.json
+
+## IntelliJ software
+*.iml
+*.ipr
+*.iws
+.idea/
