@@ -1,12 +1,11 @@
 @echo off
 echo ************************************************************  
 echo *                                                          *  
-echo *             Ç°¶ËÏà¹Ø´úÀíÏµÍ³»·¾³±äÁ¿ÉèÖÃ                   *  
+echo *             å‰ç«¯ç›¸å…³ä»£ç†ç³»ç»ŸçŽ¯å¢ƒå˜é‡è®¾ç½®                   *  
 echo *                                                          *  
 echo ************************************************************  
 @setx SASS_BINARY_SITE https://npm.taobao.org/mirrors/node-sass -m
 @setx PYTHON_MIRROR https://npm.taobao.org/mirrors/python/ -m
 @setx ELECTRON_MIRROR https://npm.taobao.org/mirrors/electron/ -m
-@setx SASS_BINARY_SITE https://npm.taobao.org/mirrors/node-sass -m
-echo === Çë°´ÈÎÒâ¼üÍË³ö!   
+echo === è¯·æŒ‰ä»»æ„é”®é€€å‡º!   
 pause>nul
